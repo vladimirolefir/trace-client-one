@@ -1,3 +1,6 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
 *.class
 
 # Mobile Tools for Java (J2ME)
@@ -8,5 +11,27 @@
 *.war
 *.ear
 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
